@@ -3,10 +3,42 @@
 	{
 		"selected_items":
 		[
+			[
+				"s",
+				"s"
+			],
+			[
+				"cont",
+				"ContactForm"
+			],
+			[
+				"SignUp",
+				"SignUpForm"
+			],
+			[
+				"Sign",
+				"SignUpAdmin"
+			],
+			[
+				"si",
+				"SignUp"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/moglanding18/settings.py",
+			"settings":
+			{
+				"buffer_size": 3170,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -19,7 +51,7 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -32,6 +64,18 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Skylor/Desktop/moglanding18/src/contactus/forms.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/contactus/views.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/contactus/models.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/newsletter/views.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/newsletter/forms.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/newsletter/models.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/templates/forms.html",
+		"/C/Users/Skylor/Desktop/moglanding18/src/moglanding18/urls.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/templates/home.html",
+		"/C/Users/Skylor/Desktop/moglanding18/src/newsletter/admin.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/moglanding18/settings.py",
+		"/C/Users/Skylor/Desktop/moglanding18/src/newsletter/templates/home.html"
 	],
 	"find":
 	{
@@ -66,8 +110,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/moglanding18/settings.py",
+					"settings":
+					{
+						"buffer_size": 3170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3011,
+								3011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1395.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -77,7 +150,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -102,6 +175,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0
