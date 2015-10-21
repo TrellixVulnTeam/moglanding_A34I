@@ -31,7 +31,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 
 EMAIL_HOST_USER = 'myoilgirls@gmail.com'
 
-EMAIL_HOST_PASSWORD = 'guesswho1'
+EMAIL_HOST_PASSWORD = ''
 
 EMAIL_PORT = 587
 
