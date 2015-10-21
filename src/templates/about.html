@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block head_title %}About | {{ block.super }}{% endblock %}
+
+
+<!-- START THE FEATURETTES -->
+	{% block featurette %}
+      <hr class="featurette-divider">
+
+    <div class='container-fluid'>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Emily Coker. <span class="text-muted">She'll blow your mind.</span></h2>
+          <p class="lead">This is where we put a quick bio about Emily.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/Emily.png' %}" alt="Emily Coker Image">
+        </div>
+      </div>
+    </div>
+
+      <hr class="featurette-divider">
+
+	<div class='container-fluid'>
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Meg &amp; Greg Bush. <span class="text-muted">Dynamic Duo..</span></h2>
+          <p class="lead">This is where we put a quick bio about Meg.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/MegGreg.jpg' %}" alt="Meg Zwisler Bush Image">
+        </div>
+      </div>
+    </div>
+
+      <hr class="featurette-divider">
+
+    <div class='container-fluid'>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Gannon Coker. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">This is where we put a quick bio about Gannon.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/Gannon.jpg' %}" alt="Gannon Coker Image">
+        </div>
+      </div>
+    </div>
+
+      <hr class="featurette-divider">
+
+    {% endblock %}
+
+      <!-- /END THE FEATURETTES -->
